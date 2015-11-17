@@ -1,0 +1,54 @@
+.wsk-no-padding {
+    padding: 0;
+}
+.wsk-no-margin {
+    margin: 0;
+}
+md-button.wsk-no-margin,
+.md-button.wsk-no-margin {
+    margin: 0;
+}
+.wsk-no-shadow {
+    box-shadow: none;
+}
+md-button.md-raised.wsk-no-shadow,
+.md-button.md-raised.wsk-no-shadow {
+    box-shadow: none;
+    &:focus {
+        box-shadow: none;
+    }
+    &:hover {
+        box-shadow: none;
+    }
+    &:active {
+        box-shadow: none;
+    }
+}
+.wsk-lowercase {
+    text-transform: none;
+}
+.wsk-delayed-transition {
+    transition-delay: 0.27s;
+}
+.wsk-hoverlay {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.12);
+    opacity: 0;
+    transition: opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+.wsk-link{
+    text-decoration: none;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+    &.disabled{
+        pointer-events: none;
+    }
+}

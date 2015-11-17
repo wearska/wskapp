@@ -1,0 +1,21 @@
+// Breakpoints
+$xsmall-display-min: 0px !default;
+$xsmall-display-max: 599px !default;
+$small-display-min: 600px !default;
+$small-display-max: 959px !default;
+$medium-display-min: 960px !default;
+$medium-display-max: 1279px !default;
+$large-display-min: 1280px !default;
+$large-display-max: 1919px !default;
+$xlarge-display-min: 1920px !default;
+
+$xsmall-and-up: "screen and (min-width : #{$xsmall-display-min})" !default;
+$xsmall-only: "handheld and (max-width : #{$xsmall-display-max}), screen and (max-width : #{$xsmall-display-max})" !default;
+$small-and-up: "screen and (min-width : #{$small-display-min})" !default;
+$small-only: "handheld and (min-width : #{$small-display-min}) and (max-width : #{$small-display-max}), screen and (min-width : #{$small-display-min}) and (max-width : #{$small-display-max})" !default;
+$medium-and-up: "screen and (min-width : #{$medium-display-min})" !default;
+$medium-only: "screen and (min-width : #{$medium-display-min}) and (max-width : #{$medium-display-max})" !default;
+$medium-and-down: "screen and (max-width : #{$medium-display-max})" !default;
+$large-and-up: "screen and (min-width : #{$large-display-min})" !default;
+$large-only: "screen and (min-width : #{$large-display-min}) and (max-width : #{$large-display-max})" !default;
+$xlarge-and-up: "screen and (min-width : #{$xlarge-display-min})" !default;
